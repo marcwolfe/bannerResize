@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="format-detection" content="telephone=no"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+    <link type="text/css" href="styles.css" rel="stylesheet" />
+    <script src="https://s0.2mdn.net/ads/studio/Enabler.js"></script>
+    <script src="https://s0.2mdn.net/ads/studio/cached_libs/tweenmax_1.19.0_643d6911392a3398cb1607993edabfa7_min.js"></script>
+    <script src="https://s0.2mdn.net/ads/studio/cached_libs/scrolltoplugin_1.19.0_53288c1da14a1784cdf302f94d0116a7_min.js"></script>
+    <script src="https://s0.2mdn.net/ads/studio/cached_libs/textplugin_1.19.0_ee0a9b7420a65afd44a2fd958cd72d16_min.js"></script>
+    <script src="mkr.min.js"></script>
+    <script src="isi-ss-tool.js"></script>
+    <script src="banner.js"></script>
+    <script type="text/javascript">
+      var clickTag1 = 'https://zilrettapro.com/request-a-rep-email-sign-up/';
+      var clickTag2 = 'https://zilrettalabel.com/PI.pdf';
+      var clickTag3 = 'https://www.fda.gov/medwatch';
+
+      function activateClickTags() {
+        mkr.on('#cta', 'click', linkHandler);
+        mkr.on('#pi', 'click', linkHandler);
+        mkr.on('#fda', 'click', linkHandler);
+      }
+
+      function linkHandler(e) {
+        e.preventDefault();
+        switch (e.target.id) {
+          case 'cta':
+            Enabler.exit('CTA Exit', clickTag1);
+            break;
+          case 'pi':
+            Enabler.exit('PI Exit', clickTag2);
+            break;
+          case 'fda':
+            Enabler.exit('FDA Exit', clickTag3);
+            break;
+        }
+        return false;
+      }
+      window.onload = function() {
+        //Polite loadind...
+        if (Enabler.isInitialized()) {
+          initHandler();
+        } else {
+          Enabler.addEventListener(studio.events.StudioEvent.INIT, initHandler);
+        }
+      };
+    </script>
+  </head>
+  <body>
+    <!-- ISI -->
+    <div id="isi-content" class="isi-content" style="display:none">
+      <div class="isi-inner">
+        <h2 class="more-top">INDICATION AND IMPORTANT SAFETY INFORMATION</h2>
+        <h2 class="no-top">Indication</h2>
+        <p>
+          ZILRETTA  is indicated as an intra-articular injection for the management of osteoarthritis pain of the knee.
+        </p>
+        <h2>Contraindication</h2>
+        <p>
+          ZILRETTA is contraindicated in patients who are hypersensitive to triamcinolone acetonide, corticosteroids, or any components of the product.
+        </p>
+        <h2>Warnings and Precautions</h2>
+        <ul>
+          <li>
+            <strong>Intra-articular Use Only: </strong>ZILRETTA has not been evaluated and should not be administered by epidural, intrathecal, intravenous, intraocular, intramuscular, intradermal, or subcutaneous routes. Serious events have been reported with epidural and intrathecal administration of corticosteroids and none are approved for this use. ZILRETTA should not be considered safe for epidural or intrathecal administration.
+          </li>
+          <li>
+            <strong>Hypersensitivity Reactions: </strong>Rare instances of anaphylaxis, including serious cases, have occurred in patients with hypersensitivity to corticosteroids.
+          </li>
+          <li>
+            <strong>Joint Infection and Damage: </strong>A marked increase in pain accompanied by local swelling, restriction of joint motion, fever, and malaise are suggestive of septic arthritis. Examine joint fluid to exclude a septic process. If diagnosis is confirmed, institute appropriate antimicrobial therapy. Avoid injecting corticosteroids into a previously infected or unstable joint. Intra-articular administration may result in damage to joint tissues.
+          </li>
+          <li>
+            <strong>Increased Risk of Infections: </strong>Infection with any pathogen in any location of the body may be associated with corticosteroid use. Corticosteroids may increase the susceptibility to new infection and decrease resistance and the ability to localize infection. 
+          </li>
+          <li>
+            <strong>Alterations in Endocrine Function: </strong>Corticosteroids can produce reversible hypothalamic-pituitary-adrenal axis suppression, with potential for adrenal insufficiency after withdrawal of treatment, which may persist for months. In situations of stress during that period, institute corticosteroid replacement therapy.
+          </li>
+          <li>
+            <strong>Cardiovascular and Renal Effects: </strong>Corticosteroids can cause blood pressure elevation, salt and water retention, and increased potassium excretion. Monitor patients with congestive heart failure, hypertension, and renal insufficiency for edema, weight gain, and electrolyte imbalance. Dietary salt restriction and potassium supplementation may be needed.
+          </li>
+          <li>
+            <strong>Increased Intraocular Pressure: </strong>Corticosteroid use may be associated with increased intraocular pressure. Monitor patients with elevated intraocular pressure for potential treatment adjustment.
+          </li>
+          <li>
+            <strong>Gastrointestinal Perforation: </strong>Corticosteroid administration may increase risk of gastrointestinal perforation in patients with certain GI disorders and fresh intestinal anastomoses. Avoid corticosteroids in these patients.
+          </li>
+          <li>
+            <strong>Alterations in Bone Density: </strong>Corticosteroids decrease bone formation and increase bone resorption. Special consideration should be given to patients with or at increased risk of osteoporosis prior to treatment.
+          </li>
+          <li>
+            <strong>Behavior and Mood Disturbances: </strong>Corticosteroids may cause adverse psychiatric reactions. Prior to treatment, special consideration should be given to patients with previous or current emotional instability or psychiatric illness. Advise patients to immediately report any behavior or mood disturbances.
+          </li>
+        </ul>
+        <h2>Adverse Reactions</h2>
+        <p>
+          The most commonly reported adverse reactions (incidence ≥1%) in clinical studies included upper respiratory tract infections, muscle spasms, and contusions.
+        </p>
+        <p>
+          <strong>Please see full
+            <a id="pi" href="#" target="_blank">Prescribing Information</a>.</strong>
+        </p>
+        <p>
+          <strong>To report
+            <span style="text-transform: uppercase;">suspected adverse reactions</span>, contact Flexion Therapeutics at
+            <span class="teal"><span class="no-br">1-844-FLEXION</span>
+              <span class="no-br">(353-9466)</span></span>
+            or FDA at <span class="teal no-br">1-800-FDA-1088 (332-1088)</span> or
+            <a id="fda" href="#" target="_blank">www.fda.gov/medwatch</a>.</strong>
+        </p>
+      </div>
+
+      <div class="isi-inner">
+        <p><strong>OA</strong>=osteoarthritis.</p>
+        <p>
+          © 2019 Flexion Therapeutics, Inc.<br />All rights reserved.
+          ZILRETTA is a registered trademark of Flexion Therapeutics, Inc. June
+          2019.<br />Z-00797
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
