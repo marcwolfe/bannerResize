@@ -111,7 +111,7 @@ function initHandler() {
     m.tmln.from(txt1, fadeIn, { x: "+=15" }, "scn1");
 
     m.tmln.addLabel("scn2", "+=1.3");
-    m.tmln.to(bg, fadeIn, { x: 150, y: 50, scale: 0.55 }, "scn2");
+    m.tmln.to(bg, fadeIn, { x: 180, y: 26, scale: 0.55 }, "scn2");
     m.tmln.to(txt1, fadeIn, { scale: 0.72, x: 14, y: 71 }, "scn2");
     m.tmln.to(txt2, fadeIn, { autoAlpha: 1 }, "scn2+=.3");
 
